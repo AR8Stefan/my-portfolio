@@ -1,0 +1,327 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/***********************************************
+GENERAL
+***********************************************/
+
+// * {
+//   border: 1px solid red !important;
+// }
+
+// .main-margin { // make useless
+//   margin-top: 60px;
+// }
+
+html h1 , html h2 , html h3 , html h4 , html h5 , html h6 , a {
+  font-family: 'Karla', sans-serif;
+}
+
+html p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav, ul {
+  list-style-type: none;
+}
+
+.display-4 {
+  font-family: 'Overpass Mono', monospace;
+}
+
+// .navbar {
+//   margin-bottom: 200px;
+// }
+
+/***********************************************
+HEADING
+***********************************************/
+
+
+
+/***********************************************
+NAVIGATION
+***********************************************/
+
+nav {
+  height: 60px;
+}
+
+// .container {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+// }
+
+.main-logo {
+  float: left;
+}
+
+.nav-link {
+  display: inline-block;
+  justify-content: space-around;
+  float: right;
+  padding-right: 20px;
+}
+
+/* nav links */
+
+
+/* selected nav links */
+
+
+/***********************************************
+FOOTER
+***********************************************/
+
+footer {
+  position: absolute;
+  list-style: none;
+	padding: 10px 0 0 0;
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	width: 100%;
+  height: 90px;
+}
+
+footer, html p {
+  margin-bottom: 0px;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+}
+
+/***********************************************
+PAGE PORTFOLIO
+***********************************************/
+
+// .main-page {
+//   text-wrap: auto;
+// }
+
+html header {
+  display: flex;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 0px;
+}
+
+html.full-width { // why isnt this working?
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.project-images {
+  display: flex;
+  content-align: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
+  // padding: 15px 50px 50px 10px;
+}
+
+.project-link {
+  display: flex;
+  justify-content: space-around;
+  align-self: auto;
+}
+
+.project-images
+img {
+  margin: 5px;
+}
+
+.about {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.about, html h1 {
+  text-align: center;
+
+}
+
+.in-touch {
+  justify-content: center;
+  text-align: center;
+}
+
+/***********************************************
+PAGE RESUME
+***********************************************/
+//
+// .about {
+//   display: flex;
+//   justify-content: center;
+// }
+
+/***********************************************
+PAGE CONTACT
+***********************************************/
+
+
+/***********************************************
+PAGE PROJECTS_PAGES
+***********************************************/
+
+.project-page {
+  margin-top: 60px;
+  max-width: 100%
+}
+
+.heading-image {
+  text-align: center;
+}
+
+.heading-image img {
+  max-width: 100%;
+}
+
+.about-project {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: auto;
+  flex-basis: 500px;
+  margin: 10px;
+  font-size: .85em;
+}
+
+.main-project-title {
+  margin-right: auto;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.titles {
+  margin: 10px;
+  flex-direction: row;
+}
+
+.project-description {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.image4 {
+  text-align: center;
+}
+
+.project-img {
+  margin-top: 15px ;
+}
+
+.portrait-imgs {
+  display: flex;
+  flex-shrink: 1;
+  max-width: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+.portrait-imgs, .imgage5, .image6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.more-info {
+  flex-basis: 400px;
+}
+
+/***********************************************
+COLOURS
+***********************************************/
+
+// 38112D - nav/header/intro
+// & contact
+// 231429 - footer & projects
+// 18131C - about
+// EB013B - redness
+// ECDCDC - off-white
+
+/* nav bar */
+
+nav {
+  background-color: #38112D;
+}
+
+html body, header {
+  background: #38112D;
+}
+
+html h1, html h2, html h3, html h4, html h5, html h6, html p {
+  color: #ECDCDC;
+}
+
+.project-images, .full-width,
+footer {
+  background-color: #231429;
+}
+
+.about {
+  background: #18131C;
+}
+
+html a {
+  color: #EB013B;
+}
+
+html a:hover {
+  color: #EB013B;
+}
+
+/* nav links */
+// nav a {
+//   color: orange;
+// }
+//
+// nav a:hover {
+//   text-decoration: none;
+// 	color: red;
+//   // text-shadow: 2px 2px 5px black;
+// }
+
+/* site body */
+// .main-body {
+// 	background-color: lightgrey;
+// 	color: #999;
+// }
+
+/* button */
+// .btn.btn-primary-outline.btn-sm {
+//   color: green;
+//   background-color: red;
+// }
+
+/* header colour blue */
+// header {
+// 	background-color: grey; /*change*/
+// }
+//
+// footer {
+//   background-color: green; // change
+// }
+
+/* nav background for mobile */
+
+
+/* logo text */
+
+
+/* links */
+
+/***********************************************
+MEDIA QUERIES
+***********************************************/
