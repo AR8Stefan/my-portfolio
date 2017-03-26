@@ -40,7 +40,7 @@ nav {
   max-height: 70px;
 }
 
-img.logo { // MAKE TOP OF IMG TOUCH TOP?
+img.logo {
   height: 70px;
   width: 70px;
   border-radius: 50px;
@@ -100,9 +100,12 @@ PAGE PORTFOLIO
 header {
   display: flex;
   text-align: center;
-  height: 150px;
   margin-top: 15px;
   line-height: 2; // to space lines apart - NOT APPLYING
+}
+
+section {
+  max-width: 100%;
 }
 
 .display-4 { // NOT ALLPYING?
