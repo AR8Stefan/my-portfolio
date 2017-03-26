@@ -11,24 +11,25 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-light"> <!-- navbar-fixed-top -->
-      <ul>
-        <li class="main-logo"><%= link_to "Stefan", root_path %></li>
-        <li class="nav-link"><%= link_to "Resume", pages_resume_path %>
+    <nav class="navbar navbar-light">
+      <ul>  <!--PUSHING OUT OF NAV? -->
+        <img class="logo" src="http://res.cloudinary.com/dggzym4rl/image/upload/v1489531950/sample.jpg"><% link_to root_path %>
+        <li class="nav-link"><%= link_to "Resume", pages_resume_path %></li>
         <li class="nav-link"><%= link_to "Portfolio", root_path %></li>
       </ul>
     </nav>
     <!-- end navbar -->
-<div class="container-fluid">
+    <div class="container-fluid">
     <%= yield %>
-  </div>
+    </div>
 
     <footer>
-      	<a href="http://facebook.com/stefan.piatkov"><li>Facebook</li></a>
+        <a href="http://facebook.com/stefan.piatkov"><li>Facebook</li></a>
         <a href="https://www.linkedin.com/in/stefan-piatkov-865a4978/"><li>LinkedIn</li></a>
         <a href="https://au.pinterest.com/stefanpiatkov/"><li>Pinterest</li></a>
-  		<p>&copy; 2017 Stefan.</p>
+        <a href="https://github.com/AR8Stefan"><li>GitHub</li></a>
+      <p>&copy; 2017 Stefan.</p>
       <p>Designed by Jessica M. K.</p>
-  	</footer>
+    </footer>
   </body>
 </html>

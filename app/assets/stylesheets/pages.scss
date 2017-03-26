@@ -10,15 +10,11 @@ GENERAL
 //   border: 1px solid red !important;
 // }
 
-// .main-margin { // make useless
-//   margin-top: 60px;
-// }
-
 html h1 , html h2 , html h3 , html h4 , html h5 , html h6 , a {
   font-family: 'Karla', sans-serif;
 }
 
-html p {
+p {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,10 +25,6 @@ nav, ul {
 .display-4 {
   font-family: 'Overpass Mono', monospace;
 }
-
-// .navbar {
-//   margin-bottom: 200px;
-// }
 
 /***********************************************
 HEADING
@@ -45,7 +37,19 @@ NAVIGATION
 ***********************************************/
 
 nav {
-  height: 60px;
+  max-height: 70px;
+}
+
+img.logo { // MAKE TOP OF IMG TOUCH TOP?
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+li.nav-link {
+  display: inline-block;
+  float: right;
+  padding: 8px;
 }
 
 // .container {
@@ -53,17 +57,6 @@ nav {
 //   flex-wrap: wrap;
 //   justify-content: space-around;
 // }
-
-.main-logo {
-  float: left;
-}
-
-.nav-link {
-  display: inline-block;
-  justify-content: space-around;
-  float: right;
-  padding-right: 20px;
-}
 
 /* nav links */
 
@@ -78,26 +71,22 @@ FOOTER
 footer {
   position: absolute;
   list-style: none;
-	padding: 10px 0 0 0;
-	font-size: 0.75em;
-	text-align: center;
-	clear: both;
-	width: 100%;
-  height: 95px;
+  padding: 10px 0 0 0;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  height: 100px;
 }
 
-footer, html p {
-  margin-bottom: 0px;
+footer p {
+  padding-bottom: 10px;
+  margin-bottom: 0rem;
 }
 
-footer, html a {
+footer a {
   display: inline-block;
   padding: 8px;
-}
-
-.social-icon {
-	width: 20px;
-	height: 20px;
 }
 
 /***********************************************
@@ -108,43 +97,61 @@ PAGE PORTFOLIO
 //   text-wrap: auto;
 // }
 
-html header {
+header {
   display: flex;
   text-align: center;
+  height: 150px;
+  margin-top: 15px;
+  line-height: 2; // to space lines apart - NOT APPLYING
 }
 
-header {
-  margin-bottom: 0px;
+.display-4 { // NOT ALLPYING?
+  font-weight: .75rem;
 }
 
-.display-4 {
-  font-weight: .75em;
+.project-title {
+  margin-top: 14px;
 }
 
 .project-images {
   display: flex;
-  content-align: center;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: -9999px;
 }
 
-.project-title {
-  margin: 20px;
-}
+// .project-images {
+//   display: flex;
+//   align-content: center;
+//   flex-wrap: wrap;
+//   max-width: 100%;
+// }
+//
+// .project-title {
+//   margin: 20px;
+// }
+//
+// .main-projects {
+//   display: flex;
+//   justify-content: space-around;
+//   align-content: center;
+// }
+
+/***********************************************
+BOX SIZES --------------------------------------
+***********************************************/
 
 .ph {
-  // display: flex;
-  // flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   // content-align: center;
   // align-items: center;
   justify-content: space-around;
   margin: 20px;
 }
 
-.ph1, .ph2, img {
-
-  width: 400px;
-  height: 250px;
+img {
+  width: 500px;
+  height: 300px;
   background-color: #EB013B;
 }
 
@@ -155,14 +162,9 @@ header {
 }
 
 .ph4 {
-  width: 400px;
+  width: 500px;
   height: 200px;
   background-color: #EB013B;
-}
-
-.in-touch {
-  justify-content: center;
-  text-align: center;
 }
 
 /***********************************************
@@ -170,22 +172,33 @@ SECTION ABOUT
 ***********************************************/
 
 .about {
-  padding: 15px 10px;
-   display: flex;
-   content-align: center;
-   flex-wrap: wrap;
-   max-width: 100%;
+  text-align: center;
+  padding: 10px 5px 2px 5px;
 }
+//
+// .about p {
+//   text-align: center;
+// }
 
 /***********************************************
 PAGE RESUME
 ***********************************************/
 
 
+
 /***********************************************
 PAGE CONTACT
 ***********************************************/
 
+.in-touch {
+  text-align: center;
+  margin: 10px;
+  max-width: 100%;
+}
+//
+// div a {
+//   margin: 100px;
+// }
 
 /***********************************************
 PAGE PROJECTS_PAGES
@@ -235,7 +248,7 @@ PAGE PROJECTS_PAGES
 }
 
 .project-img {
-  margin-top: 15px ;
+  margin-top: 15px;
 }
 
 .portrait-imgs {
@@ -268,7 +281,7 @@ COLOURS
 // EB013B - redness
 // ECDCDC - off-white
 
-/* nav bar */
+/* Backgrounds */
 
 nav {
   background-color: #38112D;
@@ -276,10 +289,6 @@ nav {
 
 html body, header {
   background: #38112D;
-}
-
-html h1, html h2, html h3, html h4, html h5, html h6, html p {
-  color: #ECDCDC;
 }
 
 .project-images, .full-width,
@@ -291,6 +300,12 @@ footer {
   background: #18131C;
 }
 
+/* Text */
+
+html h1, html h2, html h3, html h4, html h5, html h6, html p, figcaption {
+  color: #ECDCDC;
+}
+
 html a {
   color: #EB013B;
 }
@@ -299,41 +314,17 @@ html a:hover {
   color: #EB013B;
 }
 
+.team-name {
+  color: #ECDCDC
+}
+
+figcaption, .team-name:hover {
+  color: #EB013B
+}
+
 // html a:visited {
 //  font-weight: bold;
 //  color: #EB013B;
-// }
-
-/* nav links */
-// nav a {
-//   color: orange;
-// }
-//
-// nav a:hover {
-//   text-decoration: none;
-// 	color: red;
-//   // text-shadow: 2px 2px 5px black;
-// }
-
-/* site body */
-// .main-body {
-// 	background-color: lightgrey;
-// 	color: #999;
-// }
-
-/* button */
-// .btn.btn-primary-outline.btn-sm {
-//   color: green;
-//   background-color: red;
-// }
-
-/* header colour blue */
-// header {
-// 	background-color: grey; /*change*/
-// }
-//
-// footer {
-//   background-color: green; // change
 // }
 
 /* nav background for mobile */
