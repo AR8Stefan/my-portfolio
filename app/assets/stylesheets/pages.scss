@@ -6,9 +6,9 @@
 GENERAL
 ***********************************************/
 
-// * {
-//   border: 1px solid red !important;
-// }
+/** {
+  border: 1px solid red !important;
+}*/
 
 html h1 , html h2 , html h3 , html h4 , html h5 , html h6 , a {
   font-family: 'Karla', sans-serif;
@@ -30,7 +30,14 @@ nav, ul {
 HEADING
 ***********************************************/
 
+h2 {
+  padding-top: 50px;
+}
 
+h4 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
 
 /***********************************************
 NAVIGATION
@@ -187,7 +194,9 @@ SECTION ABOUT
 PAGE RESUME
 ***********************************************/
 
-
+.skills {
+  padding: 10px;
+}
 
 /***********************************************
 PAGE CONTACT
@@ -277,12 +286,14 @@ PAGE PROJECTS_PAGES
 COLOURS
 ***********************************************/
 
+/*
 // 38112D - nav/header/intro
 // & contact
 // 231429 - footer & projects
 // 18131C - about
 // EB013B - redness
 // ECDCDC - off-white
+*/
 
 /* Backgrounds */
 
@@ -306,6 +317,10 @@ footer {
 /* Text */
 
 html h1, html h2, html h3, html h4, html h5, html h6, html p, figcaption {
+  color: #ECDCDC;
+}
+
+.skills {
   color: #ECDCDC;
 }
 
