@@ -26,12 +26,21 @@ nav, ul {
   font-family: 'Overpass Mono', monospace;
 }
 
+.git-repo {
+  text-align: center;
+}
+
 /***********************************************
-HEADING
+HEADINGS
 ***********************************************/
 
 h2 {
   padding-top: 50px;
+}
+
+h3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 h4 {
@@ -58,12 +67,6 @@ li.nav-link {
   float: right;
   padding: 8px;
 }
-
-// .container {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-// }
 
 /* nav links */
 
@@ -100,9 +103,9 @@ footer a {
 PAGE PORTFOLIO
 ***********************************************/
 
-// .main-page {
-//   text-wrap: auto;
-// }
+/*.main-page {
+  text-wrap: auto;
+}*/
 
 header {
   display: flex;
@@ -126,25 +129,30 @@ section {
 .project-images {
   display: flex;
   flex-wrap: wrap;
-  max-width: -9999px;
+  /*max-width: -9999px;*/
 }
 
-// .project-images {
-//   display: flex;
-//   align-content: center;
-//   flex-wrap: wrap;
-//   max-width: 100%;
-// }
-//
-// .project-title {
-//   margin: 20px;
-// }
-//
-// .main-projects {
-//   display: flex;
-//   justify-content: space-around;
-//   align-content: center;
-// }
+/*.main-bg {
+  margin: 0, -50px;
+  padding: 0, -20px;
+}*/
+
+/*.project-images {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.project-title {
+    margin: 20px;
+}
+
+.main-projects {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}*/
 
 /***********************************************
 BOX SIZES --------------------------------------
@@ -153,8 +161,8 @@ BOX SIZES --------------------------------------
 .ph {
   display: flex;
   flex-wrap: wrap;
-  // content-align: center;
-  // align-items: center;
+  content-align: center;
+  align-items: center;
   justify-content: space-around;
   margin: 20px;
 }
@@ -184,11 +192,9 @@ SECTION ABOUT
 .about {
   text-align: center;
   padding: 10px 5px 2px 5px;
+  max-width: 100%;
+  overflow: hidden;
 }
-//
-// .about p {
-//   text-align: center;
-// }
 
 /***********************************************
 PAGE RESUME
@@ -207,34 +213,26 @@ PAGE CONTACT
   margin: 10px;
   max-width: 100%;
 }
-//
-// div a {
-//   margin: 100px;
-// }
 
 /***********************************************
 PAGE PROJECTS_PAGES
 ***********************************************/
 
-.project-page {
+/*.project-page {
   margin-top: 60px;
   max-width: 100%
-}
+}*/
 
 .heading-image {
   text-align: center;
 }
 
-.heading-image img {
-  max-width: 100%;
-}
-
 .about-project {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   align-self: auto;
   flex-basis: 500px;
-  margin: 10px;
+  margin: 10px;*/
   font-size: .85em;
 }
 
@@ -246,7 +244,6 @@ PAGE PROJECTS_PAGES
 
 .titles {
   margin: 10px;
-  flex-direction: row;
 }
 
 .project-description {
@@ -255,27 +252,8 @@ PAGE PROJECTS_PAGES
   max-width: 100%;
 }
 
-.image4 {
-  text-align: center;
-}
-
 .project-img {
   margin-top: 15px;
-}
-
-.portrait-imgs {
-  display: flex;
-  flex-shrink: 1;
-  max-width: 100%;
-  text-align: center;
-  align-content: center;
-}
-
-.portrait-imgs, .imgage5, .image6 {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: center;
 }
 
 .more-info {
@@ -305,8 +283,11 @@ html body, header {
   background: #38112D;
 }
 
-.project-images, .full-width,
-footer {
+.full-width, footer {
+  background-color: #231429;
+}
+
+.main-bg {
   background-color: #231429;
 }
 
