@@ -1,24 +1,33 @@
-# README
+##My Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Ruby version
+5.0.2
 
-Things you may want to cover:
+### Set up:
 
-* Ruby version
+	clone:
+	>$ git clone https://github.com/AR8Stefan/my-portfolio.git
 
-* System dependencies
+	cd intoi the directory:
+	>$ cd my-portfolio	
 
-* Configuration
+	Bundle the gems:
+	>$ bundle
 
-* Database creation
+	Start the server:
+	>$ rails s
 
-* Database initialization
+### Design Process:
 
-* How to run the test suite
+	*My fiancee and I both collaberated on this project.
+	I used Pinterest to find inspiration: https://au.pinterest.com/stefanpiatkov/web-design-instripation/
 
-* Services (job queues, cache servers, search engines, etc.)
+	*My fiancee came up with a few wireframes and asked me for a few colours we would like on the portfolio. 
 
-* Deployment instructions
+	http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_55_wdwpzt.png
 
-* ...
+	http://res.cloudinary.com/stefank9/image/upload/v1491970959/IMG_56_cxw93q.png
+
+	http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_57_l6o0uh.png
+
+
