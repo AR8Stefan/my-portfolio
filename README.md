@@ -21,6 +21,7 @@
 
 	* My fiancee and I both collaberated on this project.
 	I used Pinterest to find inspiration: https://au.pinterest.com/stefanpiatkov/web-design-instripation/
+	We picked some templates we both liked and thought would be a decent challenge.
 
 	* She came up with some wireframes and I picked a few I liked for my layout, and then decided on a colour scheme we liked for my portfolio. 
 
