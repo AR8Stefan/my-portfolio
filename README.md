@@ -24,10 +24,10 @@
 
 	*My fiancee came up with a few wireframes and asked me for a few colours we would like on the portfolio. 
 
-	http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_55_wdwpzt.png
+	(http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_55_wdwpzt.png)
 
-	http://res.cloudinary.com/stefank9/image/upload/v1491970959/IMG_56_cxw93q.png
+	(http://res.cloudinary.com/stefank9/image/upload/v1491970959/IMG_56_cxw93q.png)
 
-	http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_57_l6o0uh.png
+	(http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_57_l6o0uh.png)
 
 
