@@ -1,4 +1,4 @@
-##My Portfolio
+## My Portfolio
 
 ### Ruby version
 5.0.2
@@ -19,15 +19,25 @@
 
 ### Design Process:
 
-	*My fiancee and I both collaberated on this project.
+	* My fiancee and I both collaberated on this project.
 	I used Pinterest to find inspiration: https://au.pinterest.com/stefanpiatkov/web-design-instripation/
 
-	*My fiancee came up with a few wireframes and asked me for a few colours we would like on the portfolio. 
+	* She came up with some wireframes and I picked a few I liked for my layout, and then decided on a colour scheme we liked for my portfolio. 
 
-	(http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_55_wdwpzt.png)
+	![Image 1](http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_55_wdwpzt.png)
 
-	(http://res.cloudinary.com/stefank9/image/upload/v1491970959/IMG_56_cxw93q.png)
+	![Image 2](http://res.cloudinary.com/stefank9/image/upload/v1491970959/IMG_56_cxw93q.png)
 
-	(http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_57_l6o0uh.png)
+	![Image 3](http://res.cloudinary.com/stefank9/image/upload/v1491970960/IMG_57_l6o0uh.png)
 
+	* After the design process I created the portfolio.
 
+### Future functions:
+
+	* More Projects to be displayed on the front page.
+	* Custom logo and branding.
+	* JavaScript functionality - Once I learn a bit more and how it is used.
+
+#### No known issues - 12 Apr. 2017 
+
+	If you find any bugs/errors please let me know.
